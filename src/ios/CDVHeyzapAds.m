@@ -155,7 +155,8 @@ NSString *const HZ_FRAMEWORK = @"cordova";
                           @"installTrackingOnly": @(HZAdOptionsInstallTrackingOnly),
                           @"amazon": @(HZAdOptionsAmazon),
                           @"disableMediation": @(HZAdOptionsDisableMedation),
-                          @"disableAutomaticIAPRecording": @(HZAdOptionsDisableAutomaticIAPRecording)
+                          @"disableAutomaticIAPRecording": @(HZAdOptionsDisableAutomaticIAPRecording),
+                          @"childDirectedAds": @(HZAdOptionsChildDirectedAds)
                           };
     }
     

@@ -54,6 +54,7 @@ public class CDVHeyzapAds extends CDVHeyzapAbstractPlugin {
         startOptions.put("installTrackingOnly", HeyzapAds.INSTALL_TRACKING_ONLY);
         startOptions.put("amazon", HeyzapAds.AMAZON);
         startOptions.put("disableMediation", HeyzapAds.DISABLE_MEDIATION);
+        startOptions.put("childDirectedAds", HeyzapAds.CHILD_DIRECTED_ADVERTISING);
     }
 
     public void start(final JSONArray args, final CallbackContext callbackContext) {
