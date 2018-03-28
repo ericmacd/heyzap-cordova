@@ -139,7 +139,7 @@ NSString *const HZ_FRAMEWORK = @"cordova";
     if (jsOptions) {
         for (NSString *key in jsOptions) {
             if ([self.startOptions objectForKey:key]) {
-                options = options | (NSUInteger)[self.startOptions objectForKey:key];
+                options = options | [[self.startOptions objectForKey:key] unsignedIntegerValue];
             }
         }
     }
